@@ -57,25 +57,44 @@ table {
 @h-color: red;
 
 .border(){
-	border: 1px solid black;
+	border: 2px solid black;
+}
+.box-size(){
+	height:100px;
+	width:25%;
 
 }
 html, body {
     height: 100%;
 		font-size: 62.5%;
 		margin: 0 auto;
+		background-color: gray;
+
 }
 h1, h2{
 	font-family:'Mr Dafoe', cursive;
 	padding-bottom: 15px;
 font-size: @headline-font;
+}
+.main-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1080px;
 
+}
+.nav-nav{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	width: 75%;
 
 }
 
 
 .header-container{
-	display: flex;
+	display: flex; 
 	flex-direction: column;
 .border();
 padding: 25px;
@@ -86,7 +105,6 @@ h1{
 	color: @h-color;
 	font-size: 4rem;
 }
-
 }
 
 

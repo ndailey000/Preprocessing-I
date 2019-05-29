@@ -135,6 +135,7 @@ body {
   height: 100%;
   font-size: 62.5%;
   margin: 0 auto;
+  background-color: gray;
 }
 h1,
 h2 {
@@ -142,10 +143,23 @@ h2 {
   padding-bottom: 15px;
   font-size: 2rem;
 }
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1080px;
+}
+.nav-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 75%;
+}
 .header-container {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border: 2px solid black;
   padding: 25px;
   width: 100%;
   max-width: 1000px;
@@ -157,5 +171,5 @@ h2 {
 }
 .contact {
   display: flex;
-  border: 1px solid black;
+  border: 2px solid black;
 }
